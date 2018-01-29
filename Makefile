@@ -1,4 +1,4 @@
-PREFIX ?= /usr
+PREFIX ?= /usr/x86_64-pc-linux-gnu
 DESTDIR ?=
 LIBDIR ?= $(PREFIX)/lib
 SYSTEMDUNITDIR ?= $(LIBDIR)/systemd/system
