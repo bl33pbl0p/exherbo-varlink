@@ -7,7 +7,7 @@ all:
 	@echo "Nothing to do. Try \"make install\" instead."
 
 install:
-	@install -v -d "$(DESTDIR)/$(LIBDIR)/" && install -m 0644 -v exherbo.json "$(DESTDIR)/$(LIBDIR)/org.varlink.resolver.socket"
+	@install -v -d "$(DESTDIR)/$(LIBDIR)/" && install -m 0644 -v exherbo.json "$(DESTDIR)/$(LIBDIR)/exherbo.json"
 	@install -v -d "$(DESTDIR)/$(SYSTEMDUNITDIR)/" && install -m 0644 -v org.varlink.resolver.socket "$(DESTDIR)/$(SYSTEMDUNITDIR)/org.varlink.resolver.socket"
 	@install -v -d "$(DESTDIR)/$(SYSTEMDUNITDIR)/" && install -m 0644 -v org.varlink.resolver.service "$(DESTDIR)/$(SYSTEMDUNITDIR)/org.varlink.resolver.service"
 
