@@ -1,1 +1,1 @@
-# Fedora Varlink System Interfaces
+# Exherbo Varlink System Interfaces
