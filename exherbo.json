@@ -1,8 +1,8 @@
 {
   "vendor": "Exherbo",
-  "product": "Varlink Test System",
+  "product": "Exherbo Linux Varlink System Interfaces",
   "version": "1",
-  "url": "https://github.com/bl33pbl0p/exherbo-varlink",
+  "url": "https://exherbo.org",
   "services": [
     {
       "address": "unix:/run/io.systemd.devices;mode=0666",
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "address": "unix:/run/com.redhat.system.accounts;mode=0666",
+      "address": "unix:/run/com.redhat.accounts;mode=0666",
       "interfaces": [
-        "com.redhat.system.accounts"
+        "com.redhat.accounts"
       ],
       "executable": {
         "path": "/usr/lib/com.redhat.system/accounts.py"
