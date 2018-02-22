@@ -7,7 +7,7 @@
     {
       "address": "unix:/run/com.redhat.devices;mode=0666",
       "interfaces": [
-        "io.systemd.devices"
+        "com.redhat.devices"
       ],
       "executable": {
         "path": "/usr/bin/com.redhat.devices"
